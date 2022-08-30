@@ -1,0 +1,15 @@
+[features]
+seeds = false
+[programs.devnet]
+merkle_proof = "J74Rijn16eYh8QFHiB4F2KQuu69XFJnGaff4KuckDmWj"
+counter = "9QPgNevoAuRegwpqdBwTihshfhFWouVLdXb8nqJKDX8U"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/alfie/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
